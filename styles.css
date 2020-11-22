@@ -1,5 +1,5 @@
 body {
-    background: rgb(13, 34, 130);
+    background: black;
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
 
 .square {
     width: 75vw;
+    border: 1px solid white; ;
     border-radius: 6px;
     padding: 10px;
     margin:auto;
@@ -29,12 +30,13 @@ h1 {
     padding-left: 5px;
 }
 
+
 input {
     font-family: 'Nerko One', cursive;
     font-size: 8rem;
     color: white;
     padding: 5px;
-    border: 1px solid white;
+    border: none;
     border-radius: 6px;
 }
 
@@ -52,4 +54,13 @@ button {
 
 #actScore {
     background-color: rgb(244, 167, 201);
+}
+
+#satScore:focus {
+    background-color: white;
+    color: rgb(205, 138, 249);
+}
+#actScore:focus {
+    background-color: white;
+    color: rgb(250, 117, 177);
 }

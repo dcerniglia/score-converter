@@ -1,20 +1,21 @@
 .container {
     display: grid;
-    height: 100vh;
     grid-template-areas: "title"
                          "sat"
                          "button"
                          "act";
     grid-gap: 1em;
+    padding-bottom: 20px;
 }
 
 body {
     display:flex;
     flex-direction: column;
-    flex-basis: content ;
+    flex-basis: content;
+
 }
 .square {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
@@ -39,6 +40,8 @@ h1 {
 h2 {
     display:flex;
     justify-content: center;
+    margin: 20px;
+    padding-bottom: 20px;
 }
 #satBox {
     grid-area: sat;
@@ -55,4 +58,5 @@ h2 {
 }
 #actBox {
     grid-area: act; 
+
 }
