@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "title"
+                         "sat"
+                         "button"
+                         "act";
+    grid-gap: 1em;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    flex-basis: content ;
+}
+.square {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+
+input #satScore {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin:auto;
+   
+ 
+}
+
+h1 {
+    grid-area: title;
+    display: grid;
+    justify-content: center;
+}
+h2 {
+    display:flex;
+    justify-content: center;
+}
+#satBox {
+    grid-area: sat;
+  
+}
+.button {
+    grid-area: button;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 115px;
+    margin-right: 115px;
+
+}
+#actBox {
+    grid-area: act; 
+}

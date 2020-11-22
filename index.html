@@ -5,16 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SAT/ACT Score Converter</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/grid.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <h1>Easily Convert an SAT Score to an ACT Score</h1>
-    <div id="SAT-box">
-        <h3>SAT Score</h2>
-    </div>
-    <div id="ACT-box">
-        <h2>ACT Score</h2>
-    </div>
-</body>
+<div class="container">
+
+    <body>
+
+        <div class="square" id="satBox">
+            <h2>SAT</h2>
+            <input type="number" id="satScore" value="1020">
+
+        </div>
+        <div class='button'>
+            <button id='convertScore'>Convert</button>
+        </div>
+        <div class="square" id="actBox">
+            <h2>ACT</h2>
+            <input type="number" id="actScore" value="21">
+        </div>
+
+
+    </body>
+</div>
 
 </html>
